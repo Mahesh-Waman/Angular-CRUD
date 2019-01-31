@@ -1,6 +1,6 @@
 # Angular CRUD
 
-	## precipitation
+## precipitation
 	
 1) node version 10.15.0
 	
