@@ -1,0 +1,33 @@
+
+<div style="padding:50px;">
+    <div style="padding-left:37%; padding-bottom:1%;">
+      <h3>Account Details Information</h3>
+    </div>
+    <div style=" float:right; padding-bottom: 10px;">
+      <input type="button" value="Add New" class="btn btn-success" (click)="addNew()">
+    </div>
+    
+      <table class="table table-bordered" >
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email Id</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of apiData">
+            <th scope="row">{{item.id}}</th>
+            <td>{{item.Name}}</td>
+            <td>{{item.emailId}}</td>
+            <td>
+              <input type="button" value="edit" class="btn btn-warning" (click)="editClick(item)"> &nbsp;&nbsp;&nbsp;
+              <input type="button" value="Delete" class="btn btn-danger" (click)="DeleteClick(item)">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+    
+</div>

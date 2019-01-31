@@ -1,0 +1,25 @@
+{
+  "userDetails": [
+    {
+      "Name": "abc",
+      "userName": "abc abc",
+      "emailId": "abc@gmail.com",
+	  "password": "123",
+      "id": 1
+    },
+    {
+      "Name": "xyz",
+      "userName": "xyz123",
+      "emailId": "xyz@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "Name": "Admin",
+      "userName": "Admin",
+      "emailId": "admin@gmail.com",
+      "password": "admin",
+      "id": 3
+    }
+  ]
+}
